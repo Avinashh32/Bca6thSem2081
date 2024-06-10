@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Test</string>
+    <string name="helloworld">Helloworld</string>
+    <string name="login_page">Login Page</string>
+    <string name="username">Username</string>
+    <string name="review_of_image">Review of the image</string>
+    <string name="login">Login</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="there_are_many_variations_of_passages">There are many variations of passages</string>
+    <string name="email_mobile_number">Email/Mobile Number</string>
+    <string name="LogIn">Login</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="Password">Password</string>
+    <string name="Email_mobile_number">Email/ Mobile Number</string>
+    <string name="There_are_many_variations_of_passages">There are many variations of passages</string>
+    <string name="don_t_have_an_account">Don\'t have an account ?</string>
+    <string name="create_a_new_account">Create a New Account</string>
+    <string name="we_help_to_find_your_dream_house">We Help To Find Your Dream House</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="i_agree_with_the_terms_of_service_privacy_policy">I agree with the Terms of Service Privacy Policy.</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_up">Sign Up</string>
 </resources>

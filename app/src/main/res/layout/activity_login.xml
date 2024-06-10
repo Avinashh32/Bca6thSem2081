@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="20dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Login_Activity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/logo" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/welcome_back"
+        android:textColor="@color/grey"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="@string/There_are_many_variations_of_passages"
+        android:textColor="@color/light_grey"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/Email_mobile_number" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="20dp"
+        android:drawableEnd="@drawable/vector"
+        android:hint="@string/Password" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/forgot_password"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/LogIn"
+        android:textSize="22sp"
+        app:cornerRadius="10dp" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="5dp"
+            android:text="@string/don_t_have_an_account" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Join us"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</LinearLayout>
